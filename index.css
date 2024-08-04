@@ -1,0 +1,178 @@
+.logo{
+    height: 80px;
+    margin: 10px;
+    border-radius: 50px;
+    width: 80px;
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+a:hover{
+    color: gray;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+}
+.photo1{
+    width: 100%;
+    height: 100vh;
+}
+.btn{
+    margin-top: 10px;
+    margin-right: 40px;
+}
+.content{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 83vh;
+    flex-direction: column;
+    background-image: url(./images/Timeless\ by\ Davido.jpeg);
+}
+.ady{
+    background-color: azure;
+    padding: 5px;
+}
+.addy{
+    color: black;
+    margin: auto;
+    font-size: 13px;
+    font-weight: bold;
+}
+.body{
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 2px 15px 15px 5px black;
+    height: 100vh;
+    position: relative;
+}
+.join-us{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.bod{
+    width: 100%;
+    height: 170vh;
+}
+.list{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+h5,.listed{
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.images{
+    width: 100%!important;
+    gap: 20px;
+    background-color: black;
+}
+.about{
+    background-color: black;
+}
+.image1{
+    border-radius: 50px;
+}
+
+/* .point{
+    border: 2px solid;
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 30px;
+} */
+.davido{
+    font-size: 60px;
+    color: deepskyblue;
+}
+.community{
+    color: #f0f0f0;
+    font-size: 50px;
+
+}
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    transition: top 0.5s ease-in-out;
+}
+#headers {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    transition: top 0.5s ease-in-out;
+}
+body{
+    background-color: black;
+}
+#header.scrolled {
+    top: -100px;
+}
+#headers.scrolled {
+    top: -100px;
+}
+.buy{
+    text-align: center;
+    padding: 50px 0px;
+    background-image: url(./images/Kate\ Light\ Gray\ Abstract\ Texture\ Backdrop\ for\ Photography.jpeg);
+}
+.footer{
+    background-image: url(./images/Davido\ _Nigerian\ Artist.jpeg);
+    height: 40vh;
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+    margin-top: 80px;
+}
+.social{
+    width: 10%;
+    height: 60px;
+    font-weight: bold;
+}
+.social:hover{
+    background-color: black!important;
+    color: white;
+}
+footer{
+    height: 80px;
+    font-weight: bold;
+    padding-top: 25px;
+    color: gray;
+}
+.support a{
+    position: absolute;
+    right: 0;
+    position: fixed;
+    font-size: 40px;
+}
+
+
+
+
+/* MENU-BAR DISPLAY */
+/* .menu-bar{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+/* .headers{
+    height: 10vh;
+} */
+
