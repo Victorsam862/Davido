@@ -44,6 +44,9 @@
     .images{
         margin-top: 15vh!important;
     }
+    .support{
+        display: none;
+    }
     .body{
         height: 83vh;
         width: 90%;
@@ -63,6 +66,9 @@
         width: 90%!important;
         margin: auto;
         margin-bottom: 50px;
+    }
+    .support{
+        display: none;
     }
     .body{
         height: 95vh;
