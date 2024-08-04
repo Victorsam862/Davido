@@ -1,8 +1,8 @@
 .logo{
-    height: 80px;
+    height: 60px;
     margin: 10px;
     border-radius: 50px;
-    width: 80px;
+    width: 60px;
     position: fixed;
 }
 a{
@@ -80,10 +80,9 @@ h5{
 .images{
     width: 100%!important;
     gap: 20px;
-    
 }
 .about{
-    background-color: black;
+    background-color: blac;
 }
 .image1{
     border-radius: 50px;
@@ -120,7 +119,7 @@ h5{
     transition: top 0.5s ease-in-out;
 }
 body{
-    background-color: black;
+    background-color: blac;
 }
 #header.scrolled {
     top: -100px;
@@ -161,17 +160,7 @@ footer{
     position: fixed;
     font-size: 40px;
 }
-
-
-
-
-/* MENU-BAR DISPLAY */
-/* .menu-bar{
-    position: absolute;
-    right: 0;
-    margin-right: 20px;
+.me{
+    display: flex;
+    justify-content: end;
 }
-/* .headers{
-    height: 10vh;
-} */
-

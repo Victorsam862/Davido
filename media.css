@@ -13,7 +13,7 @@
 @media  (min-width: 920px)and (max-width: 1270px){
     .body{
         height: 93vh!important;
-        background-color: red!important;
+        /* background-color: red!important; */
     }
     .images{
         margin-top: -60vh!important;
@@ -22,7 +22,7 @@
 }
 @media (min-width: 767px)and (max-width: 920px){
     .body{
-        background-color: green!important;
+        /* background-color: green!important; */
         height: 110vh!important;
     }
     .images{
@@ -36,7 +36,6 @@
 @media (min-width: 512px)and (max-width: 767px){
     .about{
         flex-direction: column;
-        margin-bottom: 4000px!important;
     }
     .head-none{
         display: none!important;
@@ -50,7 +49,7 @@
     .body{
         height: 83vh;
         width: 90%;
-        background-color: brown!important;
+        /* background-color: brown!important; */
     }
 }
 @media (min-width: 300px)and (max-width: 512px){
@@ -61,7 +60,7 @@
         display: none!important;
     }
     .images{
-        margin-top: 40vh!important;
+        margin-top: 50vh!important;
         flex-direction: column;
         width: 90%!important;
         margin: auto;
@@ -71,8 +70,8 @@
         display: none;
     }
     .body{
-        height: 95vh;
+        height: 100vh;
         width: 95%;
-        background-color: blue!important;
+        /* background-color: blue!important; */
     }
 }
