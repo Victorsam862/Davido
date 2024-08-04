@@ -72,14 +72,13 @@
     .body{
         height: 95vh;
         width: 95%;
-        background-color: blue!important;
+        /* background-color: blue!important; */
     }
 }
 @media (min-width: 300px)and (max-width: 420px){
-    .body{
+    /* .body{
         height: 110vh;
         width: 95%;
-        background-color: blue!important;
     }
     .images{
         margin-top: 70vh!important;
@@ -87,6 +86,28 @@
         width: 90%!important;
         margin: auto;
         margin-bottom: 50px;
+    } */
+
+    .about{
+        flex-direction: column; 
+    }
+    .head-none{
+        display: none!important;
+    }
+    .images{
+        margin-top: 50vh!important;
+        flex-direction: column;
+        width: 90%!important;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .support{
+        display: none;
+    }
+    .body{
+        height: 95vh;
+        width: 95%;
+        /* background-color: blue!important; */
     }
     .addy{
         font-size: 8px!important;
