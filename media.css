@@ -70,7 +70,14 @@
         display: none;
     }
     .body{
-        height: 100vh;
+        height: 95vh;
+        width: 95%;
+        /* background-color: blue!important; */
+    }
+}
+@media (min-width: 300px)and (max-width: 420px){
+    .body{
+        height: 110vh;
         width: 95%;
         /* background-color: blue!important; */
     }
