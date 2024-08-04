@@ -37,10 +37,7 @@ ul{
     flex-direction: column;
     background-image: url(./images/Timeless\ by\ Davido.jpeg);
 }
-.ady{
-    background-color: azure;
-    padding: 5px;
-}
+
 .addy{
     color: black;
     margin: auto;
@@ -54,7 +51,7 @@ ul{
     color: white;
     border-radius: 20px;
     box-shadow: 2px 15px 15px 5px black;
-    height: 100vh;
+    height: 85vh;
     position: relative;
 }
 .join-us{
@@ -71,16 +68,19 @@ ul{
     margin-top: 10px;
     
 }
-
-h5,.listed{
+.listed{
+    letter-spacing: 1px;
+    padding: 5px;
+}
+h5{
     letter-spacing: 3px;
-    font-family: sans-serif;
-    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
 }
 .images{
     width: 100%!important;
     gap: 20px;
-    background-color: black;
+    
 }
 .about{
     background-color: black;
@@ -103,7 +103,7 @@ h5,.listed{
 .community{
     color: #f0f0f0;
     font-size: 50px;
-
+    text-align: center!important;
 }
 #header {
     position: fixed;
@@ -142,7 +142,6 @@ body{
     margin-top: 80px;
 }
 .social{
-    width: 10%;
     height: 60px;
     font-weight: bold;
 }
