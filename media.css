@@ -74,6 +74,7 @@
         width: 95%;
         /* background-color: blue!important; */
     }
+    
 }
 @media (min-width: 300px)and (max-width: 420px){
     
@@ -84,7 +85,7 @@
         display: none!important;
     }
     .images{
-        margin-top: 50vh!important;
+        margin-top: 70vh!important;
         flex-direction: column;
         width: 90%!important;
         margin: auto;
@@ -94,11 +95,9 @@
         display: none;
     }
     .body{
-        height: 103vh;
+        height: 110vh;
         width: 95%;
         /* background-color: blue!important; */
     }
-    .addy{
-        font-size: 8px!important;
-    }
+    
 }
