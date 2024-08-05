@@ -18,10 +18,6 @@ window.addEventListener('scroll', () => {
   }
 });
 
-function support(){
-    alert('9LAjk5F4rFetELE4CygcBbZ5hYc2QhRrbJjfm5Q26jWM')
-}
-
 
 
 
@@ -43,11 +39,17 @@ closeBtn.addEventListener('click', function() {
 
 
 
-function support(){
-  document.getElementById('?').innerHTML = `Buy Dev a cup of coffe:`
-  
-  document.getElementById('donate').innerHTML =  `<input type="text" id="clipboard-input" value="C/A: AHtxPaH6gQ3JpRrznHHp21XAVfbuhhuzkqit83it3HsS" readonly >`
-  console.log(donate)
 
-  
+function support(){
+  var question = document.getElementById('?');
+  var donate = document.getElementById('donate');
+
+  if (question.innerHTML && donate.innerHTML){
+    question.innerHTML = '';
+    donate.innerHTML = '';
+  }else{
+    question.innerHTML = `Buy Dev a cup of coffee:`;
+    donate.innerHTML = `<input type="text" id="clipboard-input" class = 'clipboards'  value="Copy: AHtxPaH6gQ3JpRrznHHp21XAVfbuhhuzkqit83it3HsS" readonly >`
+  }
 }
+
