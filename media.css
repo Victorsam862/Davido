@@ -42,13 +42,13 @@
         display: none!important;
     }
     .images{
-        margin-top: -55vh!important;
+        margin-top: -40vh!important;
     }
     .support{
         display: none;
     }
     .body{
-        height: 95vh!important;
+        height: 100vh!important;
         width: 90%;
         /* background-color: brown!important; */
     }
@@ -61,7 +61,7 @@
         display: none!important;
     }
     .images{
-        margin-top: -50vh!important;
+        margin-top: -35vh!important;
         flex-direction: column;
         width: 90%!important;
         margin: auto;
@@ -71,7 +71,7 @@
         display: none;
     }
     .body{
-        height: 105vh;
+        height: 105vh!important;
         width: 95%;
         /* background-color: blue!important; */
     }
@@ -86,7 +86,7 @@
         display: none!important;
     }
     .images{
-        margin-top: -60vh!important;
+        margin-top: -25vh!important;
         flex-direction: column;
         width: 90%!important;
         margin: auto;
@@ -96,7 +96,7 @@
         display: none;
     }
     .body{
-        height: 115vh;
+        height: 115vh!important;
         width: 95%;
         /* background-color: blue!important; */
     }
