@@ -61,7 +61,7 @@
         display: none!important;
     }
     .images{
-        margin-top: -35vh!important;
+        margin-top: -25vh!important;
         flex-direction: column;
         width: 90%!important;
         margin: auto;
@@ -71,7 +71,7 @@
         display: none;
     }
     .body{
-        height: 105vh!important;
+        height: 110vh!important;
         width: 95%;
         /* background-color: blue!important; */
     }
@@ -86,7 +86,7 @@
         display: none!important;
     }
     .images{
-        margin-top: -25vh!important;
+        margin-top: -15vh!important;
         flex-direction: column;
         width: 90%!important;
         margin: auto;
@@ -96,7 +96,7 @@
         display: none;
     }
     .body{
-        height: 115vh!important;
+        height: 130vh!important;
         width: 95%;
         /* background-color: blue!important; */
     }
