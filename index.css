@@ -188,12 +188,10 @@ footer{
     margin-bottom: 12vh!important;
 }
 .donating{
-    width: 35%;
+    width: 60%!important;
     position: absolute;
     position: fixed;
     text-align: center;
     top: 80vh;
-    right: 50px;
-    padding: 50px;
     
 }
