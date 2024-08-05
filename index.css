@@ -172,11 +172,13 @@ footer{
     padding-top: 25px;
     color: gray;
 }
-.support a{
+
+.support button{
     position: absolute;
     right: 0;
     position: fixed;
     font-size: 40px;
+    border-radius: 20px;
 }
 .me{
     display: flex;
@@ -184,4 +186,14 @@ footer{
 }
 .tokenomics{
     margin-bottom: 12vh!important;
+}
+.donating{
+    width: 35%;
+    position: absolute;
+    position: fixed;
+    text-align: center;
+    top: 80vh;
+    right: 50px;
+    padding: 50px;
+    
 }

@@ -39,3 +39,13 @@ closeBtn.addEventListener('click', function() {
   menuToggle.classList.remove('active');
   menu.classList.remove('active');
 });
+
+
+
+
+function support(){
+  document.getElementById('?').innerHTML = `Make a donation to Dev:`
+  
+  document.getElementById('donate').innerHTML =  `<input type="text" id="clipboard-input" value="C/A: AHtxPaH6gQ3JpRrznHHp21XAVfbuhhuzkqit83it3HsS" readonly >`
+  console.log(donate)
+}
