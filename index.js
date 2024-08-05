@@ -44,8 +44,10 @@ closeBtn.addEventListener('click', function() {
 
 
 function support(){
-  document.getElementById('?').innerHTML = `Make a donation to Dev:`
+  document.getElementById('?').innerHTML = `Buy Dev a cup of coffe:`
   
   document.getElementById('donate').innerHTML =  `<input type="text" id="clipboard-input" value="C/A: AHtxPaH6gQ3JpRrznHHp21XAVfbuhhuzkqit83it3HsS" readonly >`
   console.log(donate)
+
+  
 }

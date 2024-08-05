@@ -187,8 +187,11 @@ footer{
 .tokenomics{
     margin-bottom: 12vh!important;
 }
+#donate{
+    background-color: black;
+}
 .donating{
-    width: 60%!important;
+    /* width: 60%!important; */
     position: absolute;
     position: fixed;
     text-align: center;
