@@ -38,7 +38,8 @@ ul{
     background-image: url(./images/Timeless\ by\ Davido.jpeg);
 }
 #clipboard-input{
-    width: 400px!important;
+    width: 100%!important;
+    
 }
 .clipboards{
     background-color: black;
@@ -48,12 +49,13 @@ ul{
     box-shadow: 3px 2px 2px 0px blue;
 }
 .clipboard {
+    /* display: none!important; */
     position: relative;
     height: 40px;
     background-color: #f7f7f7;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 25px 10px;
+    padding: 25px 10px!important;
     display: flex;
     align-items: center;
     margin-top: 30px!important;
@@ -168,6 +170,7 @@ body{
     height: 60px;
     margin: 8px!important;
     font-weight: bold;
+    
 }
 .social:hover{
     background-color: black!important;
